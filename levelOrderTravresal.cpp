@@ -47,7 +47,7 @@ void printLevelOrder2(Node* root)
     q.push(root);
     q.push(NULL); // Marker for end of level
     while (!q.empty()) {
-        Node* node = q.front();i
+        Node* node = q.front();
         q.pop();
 
         // If we reach the end of a level
